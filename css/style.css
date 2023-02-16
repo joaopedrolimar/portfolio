@@ -94,59 +94,6 @@ footer h2{
     font-family: var(--font-menu);
     font-size: 1em;
 }
-
-/*projetos*/
-p{
-    padding-bottom: 20px;
-}
-img{
-    padding-bottom: 20px ;
-}
-img#relogio{
-    border-radius: 80px;
-    border: 2px black;
-    width: 400px;
-    display: block;
-    margin: auto;
-}
-div#link-relogio, a.a-relogio{
-    font-family: var(--font-menu);
-    color: brown;
-    display: block;
-    text-align: center;
-    border: 1.8px solid black;
-    padding: 5px black;
-}
-div#link-relogio{
-    background-color: blue;
-}
-a.a-relogio:hover{
-    background-color:white;
-    transition: .8s;
-}
-img#img-formulario{
-    padding-top: 20px;
-    border-radius: 80px;
-    border: 2px black;
-    width: 400px;
-    display: block;
-    margin: auto;
-}
-div#link-formulario, a.a-formulario{
-    font-family: var(--font-menu);
-    color: brown;
-    display: block;
-    text-align: center;
-    border: 1.8px solid black;
-    padding: 5px black;
-}
-div#link-formulario{
-    background-color: blue;
-}
-a.a-formulario:hover{
-    background-color:white;
-    transition: .8s;
-}
 /*contato*/
 img.joao{
     display: flex;
