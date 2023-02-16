@@ -1,0 +1,167 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@font-face {
+    font-family: 'Soloist1';
+    src: url('../fonts/soloisthalf21.ttf');
+}
+
+:root{
+
+    --font-menu:'Soloist1';
+
+    --cor1: #021140;
+    --cor2: #010D26;
+    --cor3: #041840;
+    --cor4: #355B8C;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+div#background{
+    background-image: url(../img/photo-wallpaper-galaxia.avif) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 1rem;
+    min-height: 110px;
+    
+
+}
+.menu{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.menu a{
+    font-family: var(--font-menu);
+    color: var(--cor4);
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20%;
+}
+.menu a:hover{
+    transition: .5s;
+    color: white;
+}
+main{
+    letter-spacing: 4px;
+    min-width: 300px;
+    max-width: 800px;
+    background-color: transparent;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 20px;
+}
+main h1{
+    text-align: center;
+    color: var(--cor0);
+    font-size: 2em;
+    font-family: var(--font-menu);
+}
+main h2{
+    padding-top: 1em;
+    font-family: var(--font-menu);
+    color: aliceblue;
+}
+main p {
+    color: rgb(124, 224, 10);
+    font-size: 1.5em;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 1em;
+}
+
+footer{
+    background-color: var(--cor0);
+}
+footer h2{
+    text-align: center;
+    font-family: var(--font-menu);
+    font-size: 1em;
+}
+
+/*projetos*/
+p{
+    padding-bottom: 20px;
+}
+img{
+    padding-bottom: 20px ;
+}
+img#relogio{
+    border-radius: 80px;
+    border: 2px black;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+div#link-relogio, a.a-relogio{
+    font-family: var(--font-menu);
+    color: brown;
+    display: block;
+    text-align: center;
+    border: 1.8px solid black;
+    padding: 5px black;
+}
+div#link-relogio{
+    background-color: blue;
+}
+a.a-relogio:hover{
+    background-color:white;
+    transition: .8s;
+}
+img#img-formulario{
+    padding-top: 20px;
+    border-radius: 80px;
+    border: 2px black;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+div#link-formulario, a.a-formulario{
+    font-family: var(--font-menu);
+    color: brown;
+    display: block;
+    text-align: center;
+    border: 1.8px solid black;
+    padding: 5px black;
+}
+div#link-formulario{
+    background-color: blue;
+}
+a.a-formulario:hover{
+    background-color:white;
+    transition: .8s;
+}
+/*contato*/
+img.joao{
+    display: flex;
+    margin: auto;
+}
+h2.sobremim{
+    text-align: center;
+    padding-bottom: 20px;
+}
+img.github{
+    display: flex;
+    margin: auto;
+}
+img.linkedin{
+    display: flex;
+    margin: auto;
+    background: transparent;
+}
